@@ -3,6 +3,7 @@ from sqlalchemy_serializer import SerializerMixin
 
 db = SQLAlchemy()
 
+
 class Plant(db.Model, SerializerMixin):
     __tablename__ = 'plants'
 
